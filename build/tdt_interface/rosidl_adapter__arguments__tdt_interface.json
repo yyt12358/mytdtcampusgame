@@ -1,0 +1,8 @@
+{
+  "package_name": "tdt_interface",
+  "non_idl_tuples": [
+    "/home/yyt/Desktop/cometition/src/tdt_interface:msg/AutoAimFrame.msg",
+    "/home/yyt/Desktop/cometition/src/tdt_interface:msg/AutoAimState.msg",
+    "/home/yyt/Desktop/cometition/src/tdt_interface:msg/SendData.msg"
+  ]
+}

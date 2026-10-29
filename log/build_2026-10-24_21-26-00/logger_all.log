@@ -1,0 +1,168 @@
+[0.037s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.037s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72b3ee3f8500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72b3ee3f8500>>)
+[0.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.058s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yyt/Desktop/cometition'
+[0.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdt_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdt_interface) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdt_interface) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdt_interface) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdt_interface) by extension 'ros'
+[0.074s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdt_interface' with type 'ros.ament_cmake' and name 'tdt_interface'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/version_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/version_pkg) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/version_pkg) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/version_pkg) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/version_pkg) by extension 'ros'
+[0.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/version_pkg' with type 'ros.ament_cmake' and name 'version_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'cmake_args' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'cmake_target' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'tdt_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.088s] DEBUG:colcon.colcon_core.verb:Building package 'tdt_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yyt/Desktop/cometition/build/tdt_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yyt/Desktop/cometition/install/tdt_interface', 'merge_install': False, 'path': '/home/yyt/Desktop/cometition/src/tdt_interface', 'symlink_install': False, 'test_result_base': None}
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'cmake_args' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'cmake_target' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.088s] Level 5:colcon.colcon_core.verb:set package 'version_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.088s] DEBUG:colcon.colcon_core.verb:Building package 'version_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yyt/Desktop/cometition/build/version_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yyt/Desktop/cometition/install/version_pkg', 'merge_install': False, 'path': '/home/yyt/Desktop/cometition/src/version_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.088s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.089s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'tdt_interface'
+[0.089s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yyt/Desktop/cometition/src/tdt_interface' with build type 'ament_cmake'
+[0.089s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yyt/Desktop/cometition/src/tdt_interface'
+[0.089s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yyt/Desktop/cometition/build/tdt_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yyt/Desktop/cometition/build/tdt_interface -- -j24 -l24
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yyt/Desktop/cometition/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yyt/Desktop/cometition/build/tdt_interface -- -j24 -l24
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yyt/Desktop/cometition/build/tdt_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yyt/Desktop/cometition/build/tdt_interface
+[0.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tdt_interface)
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yyt/Desktop/cometition/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yyt/Desktop/cometition/build/tdt_interface
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface' for CMake module files
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface' for CMake config files
+[0.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdt_interface', 'cmake_prefix_path')
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/cmake_prefix_path.dsv'
+[0.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/cmake_prefix_path.sh'
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/lib'
+[0.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdt_interface', 'ld_library_path_lib')
+[0.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/ld_library_path_lib.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/ld_library_path_lib.sh'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/bin'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/lib/pkgconfig/tdt_interface.pc'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/lib/python3.12/site-packages'
+[0.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdt_interface', 'pythonpath')
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/pythonpath.dsv'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/pythonpath.sh'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/bin'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/package.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/package.sh'
+[0.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yyt/Desktop/cometition/install/tdt_interface/share/colcon-core/packages/tdt_interface)
+[0.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tdt_interface)
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface' for CMake module files
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface' for CMake config files
+[0.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdt_interface', 'cmake_prefix_path')
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/cmake_prefix_path.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/cmake_prefix_path.sh'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/lib'
+[0.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdt_interface', 'ld_library_path_lib')
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/ld_library_path_lib.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/ld_library_path_lib.sh'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/bin'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/lib/pkgconfig/tdt_interface.pc'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/lib/python3.12/site-packages'
+[0.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdt_interface', 'pythonpath')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/pythonpath.dsv'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/hook/pythonpath.sh'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/tdt_interface/bin'
+[0.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/package.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/yyt/Desktop/cometition/install/tdt_interface/share/tdt_interface/package.sh'
+[0.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yyt/Desktop/cometition/install/tdt_interface/share/colcon-core/packages/tdt_interface)
+[0.378s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'tdt_interface' finished with '0'
+[0.378s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'version_pkg'
+[0.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yyt/Desktop/cometition/src/version_pkg' with build type 'ament_cmake'
+[0.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yyt/Desktop/cometition/src/version_pkg'
+[0.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yyt/Desktop/cometition/build/version_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yyt/Desktop/cometition/build/version_pkg -- -j24 -l24
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yyt/Desktop/cometition/build/version_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yyt/Desktop/cometition/build/version_pkg -- -j24 -l24
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yyt/Desktop/cometition/build/version_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yyt/Desktop/cometition/build/version_pkg
+[0.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(version_pkg)
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yyt/Desktop/cometition/build/version_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyt/dev_ws/install/learning_urdf:/home/yyt/dev_ws/install/learning_topic:/home/yyt/dev_ws/install/learning_tf:/home/yyt/dev_ws/install/learning_service:/home/yyt/dev_ws/install/learning_qos:/home/yyt/dev_ws/install/learning_pkg_python:/home/yyt/dev_ws/install/learning_parameter:/home/yyt/dev_ws/install/learning_node:/home/yyt/dev_ws/install/learning_launch:/home/yyt/dev_ws/install/learning_action:/home/yyt/dev_ws/install/learning_gazebo_harmonic:/home/yyt/dev_ws/install/learning_gazebo:/home/yyt/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yyt/Desktop/cometition/build/version_pkg
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg' for CMake module files
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg' for CMake config files
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('version_pkg', 'cmake_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/hook/cmake_prefix_path.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/hook/cmake_prefix_path.sh'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/lib'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/bin'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/lib/pkgconfig/version_pkg.pc'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/lib/python3.12/site-packages'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/bin'
+[0.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/package.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/package.sh'
+[0.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yyt/Desktop/cometition/install/version_pkg/share/colcon-core/packages/version_pkg)
+[0.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(version_pkg)
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg' for CMake module files
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg' for CMake config files
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('version_pkg', 'cmake_prefix_path')
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/hook/cmake_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/hook/cmake_prefix_path.sh'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/lib'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/bin'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/lib/pkgconfig/version_pkg.pc'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/lib/python3.12/site-packages'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/yyt/Desktop/cometition/install/version_pkg/bin'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/package.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/yyt/Desktop/cometition/install/version_pkg/share/version_pkg/package.sh'
+[0.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yyt/Desktop/cometition/install/version_pkg/share/colcon-core/packages/version_pkg)
+[0.441s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'version_pkg' finished with '0'
+[0.442s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[0.442s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[0.442s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.442s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yyt/Desktop/cometition/install/local_setup.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yyt/Desktop/cometition/install/_local_setup_util_sh.py'
+[0.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yyt/Desktop/cometition/install/setup.sh'

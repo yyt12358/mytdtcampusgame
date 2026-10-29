@@ -1,0 +1,16 @@
+{
+  "package_name": "tdt_interface",
+  "output_dir": "/home/yyt/Desktop/cometition/build/tdt_interface/rosidl_generator_type_description/tdt_interface",
+  "idl_tuples": [
+    "/home/yyt/Desktop/cometition/build/tdt_interface/rosidl_adapter/tdt_interface:msg/AutoAimFrame.idl",
+    "/home/yyt/Desktop/cometition/build/tdt_interface/rosidl_adapter/tdt_interface:msg/AutoAimState.idl",
+    "/home/yyt/Desktop/cometition/build/tdt_interface/rosidl_adapter/tdt_interface:msg/SendData.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

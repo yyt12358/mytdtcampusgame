@@ -1,0 +1,6 @@
+msg/AutoAimFrame.idl
+msg/AutoAimFrame.msg
+msg/AutoAimState.idl
+msg/AutoAimState.msg
+msg/SendData.idl
+msg/SendData.msg

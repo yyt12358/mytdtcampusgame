@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tdt_interface__py",
+		"source" : "/home/yyt/Desktop/cometition/build/tdt_interface/tdt_interface__py"
+	}
+}

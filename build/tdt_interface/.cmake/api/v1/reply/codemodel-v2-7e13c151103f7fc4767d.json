@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-81d4ae385e53b732d052.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "tdt_interface__py",
+					"jsonFile" : "directory-tdt_interface__py-0f140215f6d536ed79b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yyt/Desktop/cometition/build/tdt_interface/tdt_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tdt_interface__rs",
+					"jsonFile" : "directory-tdt_interface__rs-7574624cf63a77f8aaae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yyt/Desktop/cometition/build/tdt_interface/tdt_interface__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "tdt_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tdt_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tdt_interface_egg-25ec8e87a5628b41e4f5.json",
+					"name" : "ament_cmake_python_build_tdt_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tdt_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tdt_interface-9c1dfd0ca5068d9574b7.json",
+					"name" : "ament_cmake_python_copy_tdt_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface-257cf1edea16fe2034ba.json",
+					"name" : "tdt_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__cpp-7cb15f6efd3f918448e8.json",
+					"name" : "tdt_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tdt_interface__py::@c21d2b562ba2e8262334",
+					"jsonFile" : "target-tdt_interface__py-b5bb57eec050e86db1e6.json",
+					"name" : "tdt_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_generator_c-5bf77f0ffa63803a0244.json",
+					"name" : "tdt_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_generator_py-64711777e2dcc7af1d08.json",
+					"name" : "tdt_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_generator_type_description-8d37a102e177885936cc.json",
+					"name" : "tdt_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_typesupport_c-72de574ed963cdc742a0.json",
+					"name" : "tdt_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_typesupport_cpp-68c34514e95f62abf4e1.json",
+					"name" : "tdt_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_typesupport_fastrtps_c-7a59f0142890106a482c.json",
+					"name" : "tdt_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_typesupport_fastrtps_cpp-2384c36e18417da053d6.json",
+					"name" : "tdt_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_typesupport_introspection_c-123362a95b469e55e150.json",
+					"name" : "tdt_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface__rosidl_typesupport_introspection_cpp-95b190f6d1f1cb26e922.json",
+					"name" : "tdt_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tdt_interface__rs::@979664d154557f6c0070",
+					"jsonFile" : "target-tdt_interface__rs-baefc9477c539af9baea.json",
+					"name" : "tdt_interface__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface_s__rosidl_typesupport_c-3a219b2c57e911094ae2.json",
+					"name" : "tdt_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface_s__rosidl_typesupport_fastrtps_c-2d385954f838639e5cb7.json",
+					"name" : "tdt_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface_s__rosidl_typesupport_introspection_c-5d650c2074d113834be1.json",
+					"name" : "tdt_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tdt_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tdt_interface_uninstall-22f0becb9e024db4199d.json",
+					"name" : "tdt_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-12f87d4dc5763e6a3830.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yyt/Desktop/cometition/build/tdt_interface",
+		"source" : "/home/yyt/Desktop/cometition/src/tdt_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

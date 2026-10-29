@@ -1,0 +1,4 @@
+source;share/version_pkg/hook/cmake_prefix_path.dsv
+source;share/version_pkg/hook/cmake_prefix_path.sh
+source;share/version_pkg/local_setup.dsv
+source;share/version_pkg/local_setup.sh
